@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عرض تقديمي: تطبيق نبضك</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="presentation-container">
+        <!-- Slide 1: Title -->
+        <div class="slide active" id="slide1">
+            <div class="slide-content">
+                <h1>نبضك</h1>
+                <p>رفيقك الصحي الذكي لمراقبة الضغط والسكر</p>
+            </div>
+        </div>
+
+        <!-- Slide 2: The Problem -->
+        <div class="slide" id="slide2">
+            <div class="slide-content">
+                <h2>المشكلة التي نعالجها</h2>
+                <ul>
+                    <li>صعوبة تذكر قياس الضغط والسكر بانتظام.</li>
+                    <li>عدم وجود سجل رقمي سهل لمشاركة القراءات مع الطبيب.</li>
+                    <li>القلق المستمر على كبار السن أو المرضى الذين يعيشون بمفردهم.</li>
+                    <li>التأخر في طلب المساعدة عند حدوث طارئ صحي مفاجئ.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Slide 3: The Solution -->
+        <div class="slide" id="slide3">
+            <div class="slide-content">
+                <h2>الحل: تطبيق "نبضك"</h2>
+                <p>تطبيق ذكي يربط ساعتك الذكية بأجهزة قياس الضغط والسكر المعتمدة، ويوفر نظاماً متكاملاً للمراقبة، التحليل، والتنبيه، معززاً راحة البال لك ولعائلتك.</p>
+            </div>
+        </div>
+        
+        <!-- Slide 4: How it Works 1 -->
+        <div class="slide" id="slide4">
+            <div class="slide-content">
+                <h2>كيف يعمل؟ (1) - اتصال سهل وقراءات دقيقة</h2>
+                 <ul>
+                    <li>يقترن التطبيق عبر البلوتوث مع أجهزة القياس الطبية.</li>
+                    <li>تنتقل القراءة تلقائياً إلى تطبيق "نبضك" على هاتفك.</li>
+                    <li>تظهر القراءة فوراً على ساعتك الذكية مع سجل تاريخي.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Slide 5: How it Works 2 -->
+        <div class="slide" id="slide5">
+            <div class="slide-content">
+                <h2>كيف يعمل؟ (2) - مراقبة وتنبيهات ذكية</h2>
+                 <ul>
+                    <li>يحلل التطبيق القراءات بناءً على النطاقات المحددة.</li>
+                    <li>في حال وجود قراءة حرجة، يرسل تنبيهاً فورياً على الهاتف والساعة.</li>
+                    <li>يضمن وصول التنبيهات لضمان عدم تفويتها.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Slide 6: Fall Detection -->
+        <div class="slide" id="slide6">
+            <div class="slide-content">
+                <h2>خاصية منقذة للحياة: اكتشاف السقوط</h2>
+                <p>باستخدام مستشعرات الحركة في الساعة، يكتشف التطبيق أي سقوط قوي ومفاجئ، ويبدأ إجراءات الطوارئ إذا لم يقم المستخدم بإلغاء التنبيه.</p>
+            </div>
+        </div>
+
+        <!-- Slide 7: Emergency Alerts -->
+        <div class="slide" id="slide7">
+            <div class="slide-content">
+                <h2>نظام تنبيه الطوارئ (SOS)</h2>
+                <p>يرسل التطبيق رسالة نصية (SMS) تلقائياً لجهات الاتصال الطارئة، تتضمن رسالة تحذير ورابطاً لموقعك الجغرافي الدقيق عبر GPS.</p>
+            </div>
+        </div>
+
+        <!-- Slide 8: UI/UX -->
+        <div class="slide" id="slide8">
+            <div class="slide-content">
+                <h2>تصميم بسيط وواضح</h2>
+                <p>واجهات مستخدم تركز على سهولة الاستخدام، بأرقام ونصوص كبيرة وواضحة، وتجربة مستخدم سلسة لكافة الأعمار.</p>
+            </div>
+        </div>
+
+        <!-- Slide 9: Technology -->
+        <div class="slide" id="slide9">
+            <div class="slide-content">
+                <h2>التقنيات المستخدمة</h2>
+                <ul>
+                    <li><b>المنصات:</b> iOS, Android, watchOS, Wear OS</li>
+                    <li><b>الاتصال:</b> Bluetooth Low Energy (BLE)</li>
+                    <li><b>المستشعرات:</b> GPS, Accelerometer, Gyroscope</li>
+                    <li><b>الأمان:</b> تخزين سحابي آمن ومشفّر للبيانات</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Slide 10: Final Slide -->
+        <div class="slide" id="slide10">
+            <div class="slide-content">
+                <h2>شكراً لكم</h2>
+                <p>هل من أسئلة؟</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="navigation">
+        <button id="prevBtn">السابق</button>
+        <div id="slide-counter">1 / 10</div>
+        <button id="nextBtn">التالي</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
